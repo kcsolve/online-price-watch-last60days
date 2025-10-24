@@ -1,5 +1,6 @@
 require 'scraperwiki'
 require 'mechanize'
+require 'date'  # Required for Date.today
 
 # Initialize the scraper
 agent = Mechanize.new
@@ -46,17 +47,18 @@ price_table.search('tr').each do |tr|
     'purple' => '大昌食品'
   }[store_code] || 'Unknown Store'
   
-  # Save data
-  data = {
+  # Save data to 'data' table (required by Morph.io)
+  record = {
+    'name' => "#{brand} - #{product_name}",  # Primary key
     'date' => Date.today.to_s,
-    'product' => "#{brand} - #{product_name}",
     'store' => store_name,
     'current_price' => current_price,
     'original_price' => original_price.round(2),
     'drop_pct' => drop_pct
   }
   
-  ScraperWiki.save_sqlite(['date', 'product', 'store'], data)
+  # Save to 'data' table with 'name' as primary key
+  ScraperWiki.save_sqlite(['name'], record)
 end
 
 rescue => e
