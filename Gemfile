@@ -4,7 +4,9 @@
 
 source "https://rubygems.org"
 
-ruby "2.0.0"
+ruby "2.6.10"
 
-gem "scraperwiki", git: "https://github.com/openaustralia/scraperwiki-ruby.git", branch: "morph_defaults"
-gem "mechanize"
+gem "sqlite3", "~> 1.3.13"  # Last version compatible with Ruby 2.6
+gem "mechanize", "~> 2.7.7"  # Last version compatible with Ruby 2.6
+gem "nokogiri", "~> 1.10.10"  # Last version compatible with Ruby 2.6
+gem "rake", "~> 12.3.3"  # Compatible version
