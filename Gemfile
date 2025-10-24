@@ -4,9 +4,12 @@
 
 source "https://rubygems.org"
 
-# Use stable versions of gems
-gem "sqlite3", "~> 1.3.13"    # Stable version
-gem "nokogiri", "~> 1.10.10"  # Stable version
-gem "mechanize", "~> 2.7.7"   # Stable version
-gem "rake", "~> 12.3.3"       # Stable version
+# Specify Ruby version for Morph.io
+ruby "2.7.6"
+
+# Use versions compatible with Ruby 2.7.6
+gem "sqlite3", "~> 1.4.2"     # Compatible with Ruby 2.7
+gem "nokogiri", "~> 1.11.7"   # Compatible with Ruby 2.7
+gem "mechanize", "~> 2.8.5"   # Compatible with Ruby 2.7
+gem "rake", "~> 13.0.6"       # Compatible with Ruby 2.7
 gem "scraperwiki", git: "https://github.com/openaustralia/scraperwiki-ruby.git", branch: "morph_defaults"  # Required by Morph.io
