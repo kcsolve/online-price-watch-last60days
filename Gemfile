@@ -12,4 +12,8 @@ gem "rake", "~> 12.3.3"       # Compatible with Ruby 2.6
 gem "sqlite3", "~> 1.3.13"    # Compatible with Ruby 2.6
 gem "nokogiri", "~> 1.10.10"  # Compatible with Ruby 2.6
 gem "mechanize", "~> 2.7.7"   # Compatible with Ruby 2.6
-gem "scraperwiki", git: "https://github.com/openaustralia/scraperwiki-ruby.git", branch: "morph_defaults"
+
+# Only include scraperwiki in Morph.io environment
+if ENV['MORPH_URL']
+  gem "scraperwiki", git: "https://github.com/openaustralia/scraperwiki-ruby.git", branch: "morph_defaults"
+end
