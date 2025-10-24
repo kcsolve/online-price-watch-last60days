@@ -4,7 +4,9 @@
 
 source "https://rubygems.org"
 
-ruby "3.0.6"  # Stable version supported by Morph.io
+# Explicitly set Ruby version for Morph.io
+raise "Ruby version must be 3.0.6" if RUBY_VERSION != "3.0.6"
+ruby "3.0.6", engine: "ruby", engine_version: "3.0.6"
 
 # Use older versions for better compatibility
 gem "sqlite3", "~> 1.4.4"     # Compatible with Ruby 3.0
