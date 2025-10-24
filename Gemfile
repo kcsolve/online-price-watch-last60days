@@ -4,10 +4,11 @@
 
 source "https://rubygems.org"
 
-ruby "3.2.2"  # Latest stable version supported by Heroku/Morph.io
+ruby "3.0.6"  # Stable version supported by Morph.io
 
-gem "sqlite3", "~> 1.6.0"     # Latest stable version
-gem "nokogiri", "~> 1.15.0"   # Latest stable version
-gem "mechanize", "~> 2.9.1"   # Latest stable version
-gem "rake", "~> 13.0.0"       # Latest stable version
+# Use older versions for better compatibility
+gem "sqlite3", "~> 1.4.4"     # Compatible with Ruby 3.0
+gem "nokogiri", "~> 1.13.10"  # Compatible with Ruby 3.0
+gem "mechanize", "~> 2.8.5"   # Compatible with Ruby 3.0
+gem "rake", "~> 13.0.0"       # Compatible with Ruby 3.0
 gem "scraperwiki", git: "https://github.com/openaustralia/scraperwiki-ruby.git", branch: "morph_defaults"  # Required by Morph.io
