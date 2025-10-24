@@ -1,0 +1,4 @@
+# pack-refs with: peeled fully-peeled sorted 
+3edd54268aa54d8d0ab34e7a1c81b8f3bd885bc1 refs/heads/master
+fc50176812505e463077d5c673d504a6a234aa78 refs/heads/morph_defaults
+94098b5df8d55608139590b2cebc3c81cfb9157c refs/heads/pre-openc-refactor

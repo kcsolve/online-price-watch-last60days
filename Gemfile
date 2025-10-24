@@ -4,12 +4,12 @@
 
 source "https://rubygems.org"
 
-# Specify Ruby version (supported by Heroku as of Oct 2025)
-ruby "3.2.9"
+# Specify Ruby version
+ruby "2.6.10"
 
-# Use stable versions compatible with Ruby 3.2
-gem "rake", "~> 13.0.6"       # Latest stable version
-gem "sqlite3", "~> 1.6.0"     # Latest stable version
-gem "nokogiri", "~> 1.15.0"   # Latest stable version
-gem "mechanize", "~> 2.9.1"   # Latest stable version
+# Use versions compatible with Ruby 2.6
+gem "rake", "~> 12.3.3"       # Compatible with Ruby 2.6
+gem "sqlite3", "~> 1.3.13"    # Compatible with Ruby 2.6
+gem "nokogiri", "~> 1.10.10"  # Compatible with Ruby 2.6
+gem "mechanize", "~> 2.7.7"   # Compatible with Ruby 2.6
 gem "scraperwiki", git: "https://github.com/openaustralia/scraperwiki-ruby.git", branch: "morph_defaults"

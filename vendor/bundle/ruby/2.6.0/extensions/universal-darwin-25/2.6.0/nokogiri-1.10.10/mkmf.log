@@ -1,0 +1,634 @@
+"xcrun clang -o conftest -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/universal-darwin25 -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby/backward -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -g -Os -pipe -DHAVE_GCC_ATOMIC_BUILTINS -fno-typed-memory-operations -fno-typed-cxx-new-delete -DUSE_FFI_CLOSURE_ALLOC  -I /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libxml2 conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib -L. -L/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib     -lruby.2.6    "
+2025-10-25 00:05:40.945 xcodebuild[83740:2136645]  DVTFilePathFSEvents: Failed to start fs event stream.
+2025-10-25 00:05:41.220 xcodebuild[83740:2136643] [MT] DVTDeveloperPaths: Failed to get length of DARWIN_USER_CACHE_DIR from confstr(3), error = Error Domain=NSPOSIXErrorDomain Code=5 "Input/output error". Using NSCachesDirectory instead.
+ld: warning: search path '/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib' not found
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return 0;
+6: }
+/* end */
+
+"xcrun clang -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/universal-darwin25 -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby/backward -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -g -Os -pipe -DHAVE_GCC_ATOMIC_BUILTINS -fno-typed-memory-operations -fno-typed-cxx-new-delete -DUSE_FFI_CLOSURE_ALLOC  -I /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libxml2   -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main() {return 0;}
+/* end */
+
+"xcrun clang -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/universal-darwin25 -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby/backward -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -g -Os -pipe -DHAVE_GCC_ATOMIC_BUILTINS -fno-typed-memory-operations -fno-typed-cxx-new-delete -DUSE_FFI_CLOSURE_ALLOC  -I /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libxml2 -Wno-error=unused-command-line-argument-hard-error-in-future   -c conftest.c"
+warning: unknown warning option '-Werror=unused-command-line-argument-hard-error-in-future'; did you mean '-Werror=unused-command-line-argument'? [-Wunknown-warning-option]
+1 warning generated.
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main() {return 0;}
+/* end */
+
+have_header: checking for iconv.h... -------------------- yes
+
+"xcrun clang -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/universal-darwin25 -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby/backward -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -g -Os -pipe -DHAVE_GCC_ATOMIC_BUILTINS -fno-typed-memory-operations -fno-typed-cxx-new-delete -DUSE_FFI_CLOSURE_ALLOC  -I /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libxml2   -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <iconv.h>
+/* end */
+
+--------------------
+
+have_library: checking for gzdopen() in -lz... -------------------- yes
+
+"xcrun clang -o conftest -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/universal-darwin25 -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby/backward -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -g -Os -pipe -DHAVE_GCC_ATOMIC_BUILTINS -fno-typed-memory-operations -fno-typed-cxx-new-delete -DUSE_FFI_CLOSURE_ALLOC  -I /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libxml2 conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib -L. -L/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib     -lruby.2.6 -lz    "
+2025-10-25 00:05:43.083 xcodebuild[83817:2136834]  DVTFilePathFSEvents: Failed to start fs event stream.
+2025-10-25 00:05:43.234 xcodebuild[83817:2136832] [MT] DVTDeveloperPaths: Failed to get length of DARWIN_USER_CACHE_DIR from confstr(3), error = Error Domain=NSPOSIXErrorDomain Code=5 "Input/output error". Using NSCachesDirectory instead.
+ld: warning: search path '/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib' not found
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <zlib.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return 0;
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))gzdopen; return !p; }
+/* end */
+
+--------------------
+
+have_iconv?: checking for iconv... -------------------- yes
+
+"xcrun clang -o conftest -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/universal-darwin25 -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby/backward -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -g -Os -pipe -DHAVE_GCC_ATOMIC_BUILTINS -fno-typed-memory-operations -fno-typed-cxx-new-delete -DUSE_FFI_CLOSURE_ALLOC  -I /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libxml2 conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib -L. -L/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib     -lruby.2.6    "
+2025-10-25 00:05:44.378 xcodebuild[83837:2136885]  DVTFilePathFSEvents: Failed to start fs event stream.
+2025-10-25 00:05:44.534 xcodebuild[83837:2136884] [MT] DVTDeveloperPaths: Failed to get length of DARWIN_USER_CACHE_DIR from confstr(3), error = Error Domain=NSPOSIXErrorDomain Code=5 "Input/output error". Using NSCachesDirectory instead.
+ld: warning: search path '/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib' not found
+Undefined symbols for architecture arm64:
+  "_iconv", referenced from:
+      _main in conftest-76b21b.o
+  "_iconv_open", referenced from:
+      _main in conftest-76b21b.o
+ld: symbol(s) not found for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <stdlib.h>
+ 4: #include <iconv.h>
+ 5: 
+ 6: int main(void)
+ 7: {
+ 8:     iconv_t cd = iconv_open("", "");
+ 9:     iconv(cd, NULL, NULL, NULL, NULL);
+10:     return EXIT_SUCCESS;
+11: }
+/* end */
+
+"xcrun clang -o conftest -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/universal-darwin25 -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby/backward -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -g -Os -pipe -DHAVE_GCC_ATOMIC_BUILTINS -fno-typed-memory-operations -fno-typed-cxx-new-delete -DUSE_FFI_CLOSURE_ALLOC  -I /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libxml2 conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib -L. -L/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib     -lruby.2.6 -liconv   "
+2025-10-25 00:05:45.675 xcodebuild[83864:2136961]  DVTFilePathFSEvents: Failed to start fs event stream.
+2025-10-25 00:05:45.834 xcodebuild[83864:2136959] [MT] DVTDeveloperPaths: Failed to get length of DARWIN_USER_CACHE_DIR from confstr(3), error = Error Domain=NSPOSIXErrorDomain Code=5 "Input/output error". Using NSCachesDirectory instead.
+ld: warning: search path '/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib' not found
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <stdlib.h>
+ 4: #include <iconv.h>
+ 5: 
+ 6: int main(void)
+ 7: {
+ 8:     iconv_t cd = iconv_open("", "");
+ 9:     iconv(cd, NULL, NULL, NULL, NULL);
+10:     return EXIT_SUCCESS;
+11: }
+/* end */
+
+--------------------
+
+have_library: checking for -llzma... -------------------- yes
+
+"xcrun clang -o conftest -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/universal-darwin25 -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby/backward -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -g -Os -pipe -DHAVE_GCC_ATOMIC_BUILTINS -fno-typed-memory-operations -fno-typed-cxx-new-delete -DUSE_FFI_CLOSURE_ALLOC  -I /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libxml2 -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib -L. -L/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib     -lruby.2.6 -llzma    "
+2025-10-25 00:06:22.559 xcodebuild[95347:2157146]  DVTFilePathFSEvents: Failed to start fs event stream.
+2025-10-25 00:06:22.957 xcodebuild[95347:2157144] [MT] DVTDeveloperPaths: Failed to get length of DARWIN_USER_CACHE_DIR from confstr(3), error = Error Domain=NSPOSIXErrorDomain Code=5 "Input/output error". Using NSCachesDirectory instead.
+ld: warning: search path '/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib' not found
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: 
+15: int t(void) { ; return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for xmlParseDoc() in libxml/parser.h... -------------------- yes
+
+"xcrun clang -o conftest -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/universal-darwin25 -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby/backward -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0 -I. -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/include/libxml2 -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/include -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/include/libxml2 -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   "-DNOKOGIRI_LIBXML2_PATH=\"/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch 0004-libxml2.la-is-in-top_builddir.patch 0005-Fix-infinite-loop-in-xmlStringLenDecodeEntities.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"\""  -g -Os -pipe -DHAVE_GCC_ATOMIC_BUILTINS -fno-typed-memory-operations -fno-typed-cxx-new-delete -DUSE_FFI_CLOSURE_ALLOC  -I /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libxml2 -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib -L/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib -L/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib -L. -L/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib    /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a -llzma -lruby.2.6 /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a -llzma   "
+2025-10-25 00:06:24.596 xcodebuild[95449:2157407]  DVTFilePathFSEvents: Failed to start fs event stream.
+2025-10-25 00:06:24.751 xcodebuild[95449:2157406] [MT] DVTDeveloperPaths: Failed to get length of DARWIN_USER_CACHE_DIR from confstr(3), error = Error Domain=NSPOSIXErrorDomain Code=5 "Input/output error". Using NSCachesDirectory instead.
+ld: warning: ignoring duplicate libraries: '-liconv', '-llzma', '-lm', '-lpthread', '-lz', '/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a', '/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a', '/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a'
+ld: warning: search path '/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib' not found
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <libxml/parser.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return 0;
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlParseDoc; return !p; }
+/* end */
+
+--------------------
+
+have_func: checking for xsltParseStylesheetDoc() in libxslt/xslt.h... -------------------- yes
+
+"xcrun clang -o conftest -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/universal-darwin25 -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby/backward -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0 -I. -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/include/libxml2 -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/include -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/include/libxml2 -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   "-DNOKOGIRI_LIBXML2_PATH=\"/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch 0004-libxml2.la-is-in-top_builddir.patch 0005-Fix-infinite-loop-in-xmlStringLenDecodeEntities.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"\""  -g -Os -pipe -DHAVE_GCC_ATOMIC_BUILTINS -fno-typed-memory-operations -fno-typed-cxx-new-delete -DUSE_FFI_CLOSURE_ALLOC  -I /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libxml2 -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib -L/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib -L/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib -L. -L/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib    /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a -llzma -lruby.2.6 /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a -llzma   "
+2025-10-25 00:06:25.907 xcodebuild[95478:2157467]  DVTFilePathFSEvents: Failed to start fs event stream.
+2025-10-25 00:06:26.059 xcodebuild[95478:2157466] [MT] DVTDeveloperPaths: Failed to get length of DARWIN_USER_CACHE_DIR from confstr(3), error = Error Domain=NSPOSIXErrorDomain Code=5 "Input/output error". Using NSCachesDirectory instead.
+conftest.c:16:57: error: use of undeclared identifier 'xsltParseStylesheetDoc'
+   16 | int t(void) { void ((*volatile p)()); p = (void ((*)()))xsltParseStylesheetDoc; return !p; }
+      |                                                         ^
+1 error generated.
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <libxslt/xslt.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return 0;
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))xsltParseStylesheetDoc; return !p; }
+/* end */
+
+"xcrun clang -o conftest -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/universal-darwin25 -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby/backward -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0 -I. -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/include/libxml2 -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/include -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/include/libxml2 -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   "-DNOKOGIRI_LIBXML2_PATH=\"/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch 0004-libxml2.la-is-in-top_builddir.patch 0005-Fix-infinite-loop-in-xmlStringLenDecodeEntities.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"\""  -g -Os -pipe -DHAVE_GCC_ATOMIC_BUILTINS -fno-typed-memory-operations -fno-typed-cxx-new-delete -DUSE_FFI_CLOSURE_ALLOC  -I /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libxml2 -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib -L/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib -L/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib -L. -L/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib    /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a -llzma -lruby.2.6 /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a -llzma   "
+2025-10-25 00:06:27.166 xcodebuild[95504:2157510]  DVTFilePathFSEvents: Failed to start fs event stream.
+2025-10-25 00:06:27.323 xcodebuild[95504:2157508] [MT] DVTDeveloperPaths: Failed to get length of DARWIN_USER_CACHE_DIR from confstr(3), error = Error Domain=NSPOSIXErrorDomain Code=5 "Input/output error". Using NSCachesDirectory instead.
+ld: warning: ignoring duplicate libraries: '-liconv', '-llzma', '-lm', '-lpthread', '-lz', '/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a', '/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a', '/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a'
+ld: warning: search path '/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib' not found
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <libxslt/xslt.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return 0;
+15: }
+16: extern void xsltParseStylesheetDoc();
+17: int t(void) { xsltParseStylesheetDoc(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for exsltFuncRegister() in libexslt/exslt.h... -------------------- yes
+
+"xcrun clang -o conftest -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/universal-darwin25 -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby/backward -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0 -I. -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/include/libxml2 -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/include -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/include/libxml2 -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   "-DNOKOGIRI_LIBXML2_PATH=\"/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch 0004-libxml2.la-is-in-top_builddir.patch 0005-Fix-infinite-loop-in-xmlStringLenDecodeEntities.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"\""  -g -Os -pipe -DHAVE_GCC_ATOMIC_BUILTINS -fno-typed-memory-operations -fno-typed-cxx-new-delete -DUSE_FFI_CLOSURE_ALLOC  -I /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libxml2 -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib -L/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib -L/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib -L. -L/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib    /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a -llzma -lruby.2.6 /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a -llzma   "
+2025-10-25 00:06:28.625 xcodebuild[95526:2157564]  DVTFilePathFSEvents: Failed to start fs event stream.
+2025-10-25 00:06:28.785 xcodebuild[95526:2157563] [MT] DVTDeveloperPaths: Failed to get length of DARWIN_USER_CACHE_DIR from confstr(3), error = Error Domain=NSPOSIXErrorDomain Code=5 "Input/output error". Using NSCachesDirectory instead.
+ld: warning: ignoring duplicate libraries: '-liconv', '-llzma', '-lm', '-lpthread', '-lz', '/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a', '/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a', '/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a'
+ld: warning: search path '/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib' not found
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <libexslt/exslt.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return 0;
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))exsltFuncRegister; return !p; }
+/* end */
+
+--------------------
+
+have_func: checking for xmlHasFeature()... -------------------- yes
+
+"xcrun clang -o conftest -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/universal-darwin25 -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby/backward -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0 -I. -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/include/libxml2 -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/include -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/include/libxml2 -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   "-DNOKOGIRI_LIBXML2_PATH=\"/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch 0004-libxml2.la-is-in-top_builddir.patch 0005-Fix-infinite-loop-in-xmlStringLenDecodeEntities.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"\""  -g -Os -pipe -DHAVE_GCC_ATOMIC_BUILTINS -fno-typed-memory-operations -fno-typed-cxx-new-delete -DUSE_FFI_CLOSURE_ALLOC  -I /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libxml2 -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib -L/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib -L/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib -L. -L/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib    /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a -llzma -lruby.2.6 /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a -llzma   "
+2025-10-25 00:06:29.919 xcodebuild[95554:2157622]  DVTFilePathFSEvents: Failed to start fs event stream.
+2025-10-25 00:06:30.073 xcodebuild[95554:2157621] [MT] DVTDeveloperPaths: Failed to get length of DARWIN_USER_CACHE_DIR from confstr(3), error = Error Domain=NSPOSIXErrorDomain Code=5 "Input/output error". Using NSCachesDirectory instead.
+conftest.c:14:57: error: use of undeclared identifier 'xmlHasFeature'
+   14 | int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlHasFeature; return !p; }
+      |                                                         ^
+1 error generated.
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlHasFeature; return !p; }
+/* end */
+
+"xcrun clang -o conftest -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/universal-darwin25 -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby/backward -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0 -I. -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/include/libxml2 -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/include -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/include/libxml2 -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   "-DNOKOGIRI_LIBXML2_PATH=\"/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch 0004-libxml2.la-is-in-top_builddir.patch 0005-Fix-infinite-loop-in-xmlStringLenDecodeEntities.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"\""  -g -Os -pipe -DHAVE_GCC_ATOMIC_BUILTINS -fno-typed-memory-operations -fno-typed-cxx-new-delete -DUSE_FFI_CLOSURE_ALLOC  -I /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libxml2 -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib -L/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib -L/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib -L. -L/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib    /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a -llzma -lruby.2.6 /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a -llzma   "
+2025-10-25 00:06:31.157 xcodebuild[95570:2157656]  DVTFilePathFSEvents: Failed to start fs event stream.
+2025-10-25 00:06:31.307 xcodebuild[95570:2157655] [MT] DVTDeveloperPaths: Failed to get length of DARWIN_USER_CACHE_DIR from confstr(3), error = Error Domain=NSPOSIXErrorDomain Code=5 "Input/output error". Using NSCachesDirectory instead.
+ld: warning: ignoring duplicate libraries: '-liconv', '-llzma', '-lm', '-lpthread', '-lz', '/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a', '/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a', '/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a'
+ld: warning: search path '/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib' not found
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: extern void xmlHasFeature();
+15: int t(void) { xmlHasFeature(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for xmlFirstElementChild()... -------------------- yes
+
+"xcrun clang -o conftest -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/universal-darwin25 -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby/backward -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0 -I. -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/include/libxml2 -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/include -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/include/libxml2 -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   "-DNOKOGIRI_LIBXML2_PATH=\"/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch 0004-libxml2.la-is-in-top_builddir.patch 0005-Fix-infinite-loop-in-xmlStringLenDecodeEntities.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"\""  -g -Os -pipe -DHAVE_GCC_ATOMIC_BUILTINS -fno-typed-memory-operations -fno-typed-cxx-new-delete -DUSE_FFI_CLOSURE_ALLOC  -I /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libxml2 -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib -L/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib -L/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib -L. -L/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib    /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a -llzma -lruby.2.6 /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a -llzma   "
+2025-10-25 00:06:32.445 xcodebuild[95598:2157748]  DVTFilePathFSEvents: Failed to start fs event stream.
+2025-10-25 00:06:32.598 xcodebuild[95598:2157746] [MT] DVTDeveloperPaths: Failed to get length of DARWIN_USER_CACHE_DIR from confstr(3), error = Error Domain=NSPOSIXErrorDomain Code=5 "Input/output error". Using NSCachesDirectory instead.
+conftest.c:14:57: error: use of undeclared identifier 'xmlFirstElementChild'
+   14 | int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlFirstElementChild; return !p; }
+      |                                                         ^
+1 error generated.
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlFirstElementChild; return !p; }
+/* end */
+
+"xcrun clang -o conftest -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/universal-darwin25 -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby/backward -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0 -I. -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/include/libxml2 -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/include -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/include/libxml2 -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   "-DNOKOGIRI_LIBXML2_PATH=\"/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch 0004-libxml2.la-is-in-top_builddir.patch 0005-Fix-infinite-loop-in-xmlStringLenDecodeEntities.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"\""  -g -Os -pipe -DHAVE_GCC_ATOMIC_BUILTINS -fno-typed-memory-operations -fno-typed-cxx-new-delete -DUSE_FFI_CLOSURE_ALLOC  -I /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libxml2 -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib -L/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib -L/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib -L. -L/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib    /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a -llzma -lruby.2.6 /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a -llzma   "
+2025-10-25 00:06:33.833 xcodebuild[95628:2157796]  DVTFilePathFSEvents: Failed to start fs event stream.
+2025-10-25 00:06:33.984 xcodebuild[95628:2157795] [MT] DVTDeveloperPaths: Failed to get length of DARWIN_USER_CACHE_DIR from confstr(3), error = Error Domain=NSPOSIXErrorDomain Code=5 "Input/output error". Using NSCachesDirectory instead.
+ld: warning: ignoring duplicate libraries: '-liconv', '-llzma', '-lm', '-lpthread', '-lz', '/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a', '/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a', '/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a'
+ld: warning: search path '/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib' not found
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: extern void xmlFirstElementChild();
+15: int t(void) { xmlFirstElementChild(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for xmlRelaxNGSetParserStructuredErrors()... -------------------- yes
+
+"xcrun clang -o conftest -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/universal-darwin25 -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby/backward -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0 -I. -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/include/libxml2 -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/include -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/include/libxml2 -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   "-DNOKOGIRI_LIBXML2_PATH=\"/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch 0004-libxml2.la-is-in-top_builddir.patch 0005-Fix-infinite-loop-in-xmlStringLenDecodeEntities.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"\""  -g -Os -pipe -DHAVE_GCC_ATOMIC_BUILTINS -fno-typed-memory-operations -fno-typed-cxx-new-delete -DUSE_FFI_CLOSURE_ALLOC  -I /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libxml2 -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib -L/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib -L/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib -L. -L/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib    /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a -llzma -lruby.2.6 /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a -llzma   "
+2025-10-25 00:06:35.131 xcodebuild[95646:2157845]  DVTFilePathFSEvents: Failed to start fs event stream.
+2025-10-25 00:06:35.294 xcodebuild[95646:2157843] [MT] DVTDeveloperPaths: Failed to get length of DARWIN_USER_CACHE_DIR from confstr(3), error = Error Domain=NSPOSIXErrorDomain Code=5 "Input/output error". Using NSCachesDirectory instead.
+conftest.c:14:57: error: use of undeclared identifier 'xmlRelaxNGSetParserStructuredErrors'
+   14 | int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlRelaxNGSetParserStructuredErrors; return !p; }
+      |                                                         ^
+1 error generated.
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlRelaxNGSetParserStructuredErrors; return !p; }
+/* end */
+
+"xcrun clang -o conftest -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/universal-darwin25 -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby/backward -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0 -I. -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/include/libxml2 -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/include -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/include/libxml2 -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   "-DNOKOGIRI_LIBXML2_PATH=\"/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch 0004-libxml2.la-is-in-top_builddir.patch 0005-Fix-infinite-loop-in-xmlStringLenDecodeEntities.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"\""  -g -Os -pipe -DHAVE_GCC_ATOMIC_BUILTINS -fno-typed-memory-operations -fno-typed-cxx-new-delete -DUSE_FFI_CLOSURE_ALLOC  -I /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libxml2 -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib -L/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib -L/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib -L. -L/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib    /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a -llzma -lruby.2.6 /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a -llzma   "
+2025-10-25 00:06:36.392 xcodebuild[95673:2157892]  DVTFilePathFSEvents: Failed to start fs event stream.
+2025-10-25 00:06:36.543 xcodebuild[95673:2157890] [MT] DVTDeveloperPaths: Failed to get length of DARWIN_USER_CACHE_DIR from confstr(3), error = Error Domain=NSPOSIXErrorDomain Code=5 "Input/output error". Using NSCachesDirectory instead.
+ld: warning: ignoring duplicate libraries: '-liconv', '-llzma', '-lm', '-lpthread', '-lz', '/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a', '/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a', '/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a'
+ld: warning: search path '/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib' not found
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: extern void xmlRelaxNGSetParserStructuredErrors();
+15: int t(void) { xmlRelaxNGSetParserStructuredErrors(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for xmlRelaxNGSetParserStructuredErrors()... -------------------- yes
+
+"xcrun clang -o conftest -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/universal-darwin25 -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby/backward -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0 -I. -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/include/libxml2 -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/include -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/include/libxml2 -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   "-DNOKOGIRI_LIBXML2_PATH=\"/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch 0004-libxml2.la-is-in-top_builddir.patch 0005-Fix-infinite-loop-in-xmlStringLenDecodeEntities.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"\""  -g -Os -pipe -DHAVE_GCC_ATOMIC_BUILTINS -fno-typed-memory-operations -fno-typed-cxx-new-delete -DUSE_FFI_CLOSURE_ALLOC  -I /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libxml2 -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib -L/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib -L/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib -L. -L/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib    /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a -llzma -lruby.2.6 /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a -llzma   "
+2025-10-25 00:06:37.686 xcodebuild[95691:2157951]  DVTFilePathFSEvents: Failed to start fs event stream.
+2025-10-25 00:06:37.840 xcodebuild[95691:2157950] [MT] DVTDeveloperPaths: Failed to get length of DARWIN_USER_CACHE_DIR from confstr(3), error = Error Domain=NSPOSIXErrorDomain Code=5 "Input/output error". Using NSCachesDirectory instead.
+conftest.c:14:57: error: use of undeclared identifier 'xmlRelaxNGSetParserStructuredErrors'
+   14 | int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlRelaxNGSetParserStructuredErrors; return !p; }
+      |                                                         ^
+1 error generated.
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlRelaxNGSetParserStructuredErrors; return !p; }
+/* end */
+
+"xcrun clang -o conftest -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/universal-darwin25 -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby/backward -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0 -I. -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/include/libxml2 -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/include -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/include/libxml2 -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   "-DNOKOGIRI_LIBXML2_PATH=\"/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch 0004-libxml2.la-is-in-top_builddir.patch 0005-Fix-infinite-loop-in-xmlStringLenDecodeEntities.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"\""  -g -Os -pipe -DHAVE_GCC_ATOMIC_BUILTINS -fno-typed-memory-operations -fno-typed-cxx-new-delete -DUSE_FFI_CLOSURE_ALLOC  -I /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libxml2 -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib -L/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib -L/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib -L. -L/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib    /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a -llzma -lruby.2.6 /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a -llzma   "
+2025-10-25 00:06:39.107 xcodebuild[95728:2158029]  DVTFilePathFSEvents: Failed to start fs event stream.
+2025-10-25 00:06:39.259 xcodebuild[95728:2158027] [MT] DVTDeveloperPaths: Failed to get length of DARWIN_USER_CACHE_DIR from confstr(3), error = Error Domain=NSPOSIXErrorDomain Code=5 "Input/output error". Using NSCachesDirectory instead.
+ld: warning: ignoring duplicate libraries: '-liconv', '-llzma', '-lm', '-lpthread', '-lz', '/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a', '/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a', '/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a'
+ld: warning: search path '/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib' not found
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: extern void xmlRelaxNGSetParserStructuredErrors();
+15: int t(void) { xmlRelaxNGSetParserStructuredErrors(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for xmlRelaxNGSetValidStructuredErrors()... -------------------- yes
+
+"xcrun clang -o conftest -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/universal-darwin25 -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby/backward -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0 -I. -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/include/libxml2 -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/include -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/include/libxml2 -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   "-DNOKOGIRI_LIBXML2_PATH=\"/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch 0004-libxml2.la-is-in-top_builddir.patch 0005-Fix-infinite-loop-in-xmlStringLenDecodeEntities.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"\""  -g -Os -pipe -DHAVE_GCC_ATOMIC_BUILTINS -fno-typed-memory-operations -fno-typed-cxx-new-delete -DUSE_FFI_CLOSURE_ALLOC  -I /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libxml2 -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib -L/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib -L/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib -L. -L/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib    /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a -llzma -lruby.2.6 /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a -llzma   "
+2025-10-25 00:06:40.440 xcodebuild[95756:2158088]  DVTFilePathFSEvents: Failed to start fs event stream.
+2025-10-25 00:06:40.595 xcodebuild[95756:2158086] [MT] DVTDeveloperPaths: Failed to get length of DARWIN_USER_CACHE_DIR from confstr(3), error = Error Domain=NSPOSIXErrorDomain Code=5 "Input/output error". Using NSCachesDirectory instead.
+conftest.c:14:57: error: use of undeclared identifier 'xmlRelaxNGSetValidStructuredErrors'
+   14 | int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlRelaxNGSetValidStructuredErrors; return !p; }
+      |                                                         ^
+1 error generated.
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlRelaxNGSetValidStructuredErrors; return !p; }
+/* end */
+
+"xcrun clang -o conftest -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/universal-darwin25 -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby/backward -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0 -I. -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/include/libxml2 -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/include -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/include/libxml2 -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   "-DNOKOGIRI_LIBXML2_PATH=\"/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch 0004-libxml2.la-is-in-top_builddir.patch 0005-Fix-infinite-loop-in-xmlStringLenDecodeEntities.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"\""  -g -Os -pipe -DHAVE_GCC_ATOMIC_BUILTINS -fno-typed-memory-operations -fno-typed-cxx-new-delete -DUSE_FFI_CLOSURE_ALLOC  -I /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libxml2 -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib -L/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib -L/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib -L. -L/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib    /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a -llzma -lruby.2.6 /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a -llzma   "
+2025-10-25 00:06:41.706 xcodebuild[95772:2158123]  DVTFilePathFSEvents: Failed to start fs event stream.
+2025-10-25 00:06:41.864 xcodebuild[95772:2158121] [MT] DVTDeveloperPaths: Failed to get length of DARWIN_USER_CACHE_DIR from confstr(3), error = Error Domain=NSPOSIXErrorDomain Code=5 "Input/output error". Using NSCachesDirectory instead.
+ld: warning: ignoring duplicate libraries: '-liconv', '-llzma', '-lm', '-lpthread', '-lz', '/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a', '/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a', '/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a'
+ld: warning: search path '/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib' not found
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: extern void xmlRelaxNGSetValidStructuredErrors();
+15: int t(void) { xmlRelaxNGSetValidStructuredErrors(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for xmlSchemaSetValidStructuredErrors()... -------------------- yes
+
+"xcrun clang -o conftest -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/universal-darwin25 -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby/backward -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0 -I. -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/include/libxml2 -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/include -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/include/libxml2 -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   "-DNOKOGIRI_LIBXML2_PATH=\"/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch 0004-libxml2.la-is-in-top_builddir.patch 0005-Fix-infinite-loop-in-xmlStringLenDecodeEntities.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"\""  -g -Os -pipe -DHAVE_GCC_ATOMIC_BUILTINS -fno-typed-memory-operations -fno-typed-cxx-new-delete -DUSE_FFI_CLOSURE_ALLOC  -I /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libxml2 -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib -L/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib -L/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib -L. -L/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib    /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a -llzma -lruby.2.6 /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a -llzma   "
+2025-10-25 00:06:43.021 xcodebuild[95800:2158182]  DVTFilePathFSEvents: Failed to start fs event stream.
+2025-10-25 00:06:43.195 xcodebuild[95800:2158180] [MT] DVTDeveloperPaths: Failed to get length of DARWIN_USER_CACHE_DIR from confstr(3), error = Error Domain=NSPOSIXErrorDomain Code=5 "Input/output error". Using NSCachesDirectory instead.
+conftest.c:14:57: error: use of undeclared identifier 'xmlSchemaSetValidStructuredErrors'
+   14 | int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlSchemaSetValidStructuredErrors; return !p; }
+      |                                                         ^
+1 error generated.
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlSchemaSetValidStructuredErrors; return !p; }
+/* end */
+
+"xcrun clang -o conftest -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/universal-darwin25 -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby/backward -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0 -I. -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/include/libxml2 -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/include -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/include/libxml2 -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   "-DNOKOGIRI_LIBXML2_PATH=\"/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch 0004-libxml2.la-is-in-top_builddir.patch 0005-Fix-infinite-loop-in-xmlStringLenDecodeEntities.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"\""  -g -Os -pipe -DHAVE_GCC_ATOMIC_BUILTINS -fno-typed-memory-operations -fno-typed-cxx-new-delete -DUSE_FFI_CLOSURE_ALLOC  -I /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libxml2 -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib -L/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib -L/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib -L. -L/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib    /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a -llzma -lruby.2.6 /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a -llzma   "
+2025-10-25 00:06:44.450 xcodebuild[95830:2158240]  DVTFilePathFSEvents: Failed to start fs event stream.
+2025-10-25 00:06:44.606 xcodebuild[95830:2158238] [MT] DVTDeveloperPaths: Failed to get length of DARWIN_USER_CACHE_DIR from confstr(3), error = Error Domain=NSPOSIXErrorDomain Code=5 "Input/output error". Using NSCachesDirectory instead.
+ld: warning: ignoring duplicate libraries: '-liconv', '-llzma', '-lm', '-lpthread', '-lz', '/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a', '/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a', '/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a'
+ld: warning: search path '/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib' not found
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: extern void xmlSchemaSetValidStructuredErrors();
+15: int t(void) { xmlSchemaSetValidStructuredErrors(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for xmlSchemaSetParserStructuredErrors()... -------------------- yes
+
+"xcrun clang -o conftest -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/universal-darwin25 -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby/backward -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0 -I. -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/include/libxml2 -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/include -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/include/libxml2 -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   "-DNOKOGIRI_LIBXML2_PATH=\"/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch 0004-libxml2.la-is-in-top_builddir.patch 0005-Fix-infinite-loop-in-xmlStringLenDecodeEntities.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"\""  -g -Os -pipe -DHAVE_GCC_ATOMIC_BUILTINS -fno-typed-memory-operations -fno-typed-cxx-new-delete -DUSE_FFI_CLOSURE_ALLOC  -I /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libxml2 -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib -L/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib -L/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib -L. -L/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib    /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a -llzma -lruby.2.6 /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a -llzma   "
+2025-10-25 00:06:45.744 xcodebuild[95849:2158290]  DVTFilePathFSEvents: Failed to start fs event stream.
+2025-10-25 00:06:45.899 xcodebuild[95849:2158289] [MT] DVTDeveloperPaths: Failed to get length of DARWIN_USER_CACHE_DIR from confstr(3), error = Error Domain=NSPOSIXErrorDomain Code=5 "Input/output error". Using NSCachesDirectory instead.
+conftest.c:14:57: error: use of undeclared identifier 'xmlSchemaSetParserStructuredErrors'
+   14 | int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlSchemaSetParserStructuredErrors; return !p; }
+      |                                                         ^
+1 error generated.
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlSchemaSetParserStructuredErrors; return !p; }
+/* end */
+
+"xcrun clang -o conftest -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/universal-darwin25 -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby/backward -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0 -I. -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/include/libxml2 -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/include -I/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/include/libxml2 -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   "-DNOKOGIRI_LIBXML2_PATH=\"/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch 0004-libxml2.la-is-in-top_builddir.patch 0005-Fix-infinite-loop-in-xmlStringLenDecodeEntities.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"\""  -g -Os -pipe -DHAVE_GCC_ATOMIC_BUILTINS -fno-typed-memory-operations -fno-typed-cxx-new-delete -DUSE_FFI_CLOSURE_ALLOC  -I /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libxml2 -DNOKOGIRI_USE_PACKAGED_LIBRARIES conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib -L/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib -L/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib -L. -L/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib    /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a -llzma -lruby.2.6 /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -lz /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a -llzma   "
+2025-10-25 00:06:47.006 xcodebuild[95875:2158355]  DVTFilePathFSEvents: Failed to start fs event stream.
+2025-10-25 00:06:47.170 xcodebuild[95875:2158353] [MT] DVTDeveloperPaths: Failed to get length of DARWIN_USER_CACHE_DIR from confstr(3), error = Error Domain=NSPOSIXErrorDomain Code=5 "Input/output error". Using NSCachesDirectory instead.
+ld: warning: ignoring duplicate libraries: '-liconv', '-llzma', '-lm', '-lpthread', '-lz', '/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxml2/2.9.10/lib/libxml2.a', '/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libexslt.a', '/Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ports/aarch64-apple-darwin25/libxslt/1.1.34/lib/libxslt.a'
+ld: warning: search path '/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVaDEXpw0Mr2FHeLtgpupfQ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.Internal.sdk/usr/local/lib' not found
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return 0;
+13: }
+14: extern void xmlSchemaSetParserStructuredErrors();
+15: int t(void) { xmlSchemaSetParserStructuredErrors(); return 0; }
+/* end */
+
+--------------------
+
