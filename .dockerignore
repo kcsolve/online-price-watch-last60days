@@ -1,0 +1,7 @@
+.git
+.gitignore
+.ruby-version
+.tool-versions
+.buildpacks
+data.sqlite
+*.log
