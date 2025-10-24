@@ -160,7 +160,7 @@ class Database
     if MORPH_ENV
       ScraperWiki.select("
         SELECT category, product, store, current_price, original_price, drop_pct
-        FROM data
+        FROM swdata
         WHERE date = ?
         ORDER BY drop_pct DESC, category
       ", [date])
