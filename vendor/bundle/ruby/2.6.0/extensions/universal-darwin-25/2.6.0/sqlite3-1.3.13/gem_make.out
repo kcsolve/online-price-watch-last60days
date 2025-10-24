@@ -1,5 +1,5 @@
 current directory: /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/sqlite3-1.3.13/ext/sqlite3
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20251024-506-109kh7e.rb extconf.rb
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20251025-65879-g53mae.rb extconf.rb
 checking for sqlite3.h... yes
 checking for pthread_create() in -lpthread... yes
 checking for sqlite3_libversion_number() in -lsqlite3... yes
@@ -753,4 +753,4 @@ ld: warning: search path '/AppleInternal/Library/BuildRoots/4~B6shugC-pBw2FFwMVa
 
 current directory: /Users/kaiserchan/Documents/GitHub/online-price-watch-last60days/vendor/bundle/ruby/2.6.0/gems/sqlite3-1.3.13/ext/sqlite3
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 sqlite3_native.bundle ./.gem.20251024-506-1p7oqoh/sqlite3
+/usr/bin/install -c -m 0755 sqlite3_native.bundle ./.gem.20251025-65879-2deqrw/sqlite3
